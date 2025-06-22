@@ -15,7 +15,7 @@ PART 3:Transaction Fee Estimator
 -A user enters the amount that they want to send.The program calculates the transaction fee for sending various amounts
 
 ## Project Setup
-You will need Visual Studio Code to run this programs by going live.
+You will need Visual Studio Code to run this programs by running node.js.
 
 
 
