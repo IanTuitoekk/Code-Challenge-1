@@ -5,6 +5,12 @@ function calculateBodaFare(){
     //Prompts the user then user's input is stored in a variable
     let distanceInKm = parseInt(prompt("How many kilometres is your trip:"))
 
+    // Checks if the input is a number 
+    if(isNaN(distanceInKm)){
+       return "Type in a number"
+    }
+    else{
+
     //Assigns the variables set numbers
     let baseFare = 50
     let chargePerKm = 15
@@ -19,6 +25,7 @@ function calculateBodaFare(){
     Total: KES ${totalFare} \n
     
     Panda PikiPiki!`
+}
 }
 //Calls the function and prints out the output of the function
 console.log(calculateBodaFare())
